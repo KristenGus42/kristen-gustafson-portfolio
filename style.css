@@ -1,0 +1,47 @@
+body {
+    background-color: #ECF8FD;
+}
+
+main {
+    margin: 4rem;
+}
+
+.bg-dark {
+    background-color: #272838;
+}
+
+.navbar-brand {
+    color: #F2B418;
+}
+
+
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+section {
+    margin: 3rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+
+.dates {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #815355;
+}
+
+img {
+    max-height: 20rem;
+}

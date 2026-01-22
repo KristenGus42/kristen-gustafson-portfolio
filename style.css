@@ -45,3 +45,15 @@ a {
 img {
     max-height: 20rem;
 }
+
+.intro {
+    background-color: #afcbd6;
+    padding: 5rem;
+    border-radius: 30px;
+    border: 2px solid #272838;
+}
+
+.intro p {
+    margin: 1rem;
+    font-size: 20px;
+}

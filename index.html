@@ -8,288 +8,249 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
     crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
-    <header>
-    <nav class="navbar navbar-expand bg-dark navbar-dark px-3">
-        <span class="navbar-brand h1 mb-0">Kristen Gustafson</span>
-
-        <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="https://drive.google.com/file/d/1ugdZxzHIRh81969qJPweSi9LKAEGjhg8/view?usp=sharing">Resume</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/kristen-gustafson-224071241/">LinkedIn</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://github.com/KristenGus42">GitHub</a>
-        </li>
-        </ul>
-    </nav>
-    </header>
-
-    <!--<img src="arial-uw.jpg">-->
-
-    <section id="first-section"> <!--Introduction-->
-        <div>
-            <h2>About Me</h2>
-            <!--<div class="d-flex align-items-center gap-3 intro">-->
-                <div>
-                    <!--<img src="IMG_4278.jpg">-->
-                </div>
-                <div>
-                    <p>My name is Kristen and I am a student at the University of Washington, Seattle. I am currently studying informatics, with a focus in software development. Outside of my programming classes I enjoy taking classes regarding Geography and sustainability. I am passionate about developing technical solutions and am always looking for projects that challenge me. This is a web page to showcase some of my work and projects and expand on my resume a bit. Thank you for visiting, please reach out with any questions!</p>
-                    <p><strong>Contact me: klg42@uw.edu</strong></p>
-                </div>
-            <!--</div>-->
+    <section id="intro" class="d-flex justify-content-center align-items-center"> <!--Intro + Header -->
+        <div class="text-center">
+            <img class="rounded-circle" src="images/kristen.jpg">
+            <h1>Kristen Gustafson</h1>
+            <h2>Software Engineer</h2>
+            <div> <!--Contact info-->
+                <a href="https://www.linkedin.com/in/kristen-gustafson-224071241/"><img class="icon m-3" src="images/linkedin.png"></a>
+                <a href="https://github.com/KristenGus42"><img class="icon m-3" src="images/github.png"></a>
+                <a href="https://drive.google.com/file/d/1ugdZxzHIRh81969qJPweSi9LKAEGjhg8/view?usp=sharing" class="badge m-3">Resume</a>
+            </div>
         </div>
     </section>
-
-  <main>
-    
-    <section> <!--Projects-->
-        <h2>Projects</h2>
-        <div class="container">
-        <div class="row">
-
-        <!--UW Career Fairs-->
-        <div class="col-md-8 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">UW Career Fairs</h2>
-                    <p class="dates"><em>Sep. 2025 – Dec. 2025</em></p>
-                    <p>Led a team of 4 students to design, develop and deploy a career fair website. This website is meant to organize career events for students to optimize their times at career fairs and allow companies an easier way to index and explore potential student candidates. </p>
-                    <h4>Tools:</h4>
-                    <ul>
-                        <li>Firebase (Firestore and User Authentication)</li>
-                        <li>Vite (React build tool)</li>
-                        <li>React</li>
-                        <li>Github</li>
-                    </ul>
-                    <h4>Languages:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+    <section>
+        <section class="d-flex flex-row p-2 m-4 col-10"> <!--About section-->
+            <div class="header p-5">
+                <h2>About</h2>
+            </div>
+            <div class="align-self-center">
+                <p>I am currently an undergraduate at the University of Washington studying Informatics with a focus in software development. I am passioante about software development and love expanding my skills through challenging projects, and collaborating with my peers to create impactful software.</p>
+            </div>
+        </section>
+        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Experience-->
+            <div class="header p-5">
+                <h2>Experience</h2>
+            </div>
+            <!--ExerciseRx-->
+            <div class="align-self-center">
+                <div class="col-md-12 mt-4">
+                    <div class="card h-100 mb-4">
+                        <div class="card-body">
+                            <div class="col-sm">
+                                <div class="d-flex pb-3">
+                                    <div>
+                                        <img class="bg-gray-50 border border-gray-200 rounded-lg p-1" src="images/tsi.png">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h3 class="card-title">Software Engineer Intern</h3>
+                                        <p class="dates mb-0">ExerciseRx </p>
+                                        <p class="dates"><em>Jun. 2024 – Present</em></p>
+                                    </div>
+                                </div>
+                                <p>At ExerciseRx I help develop and maintain a web application for a health app in active research titled ExerciseRX. I contribute to the full stack development of the web dashboard for health providers.</p>
+                                <span class="badge border border-dark text-dark">PHP</span>
+                                <span class="badge border border-dark text-dark">JavaScript</span>
+                                <span class="badge border border-dark text-dark">HTML</span>
+                                <span class="badge border border-dark text-dark">CSS</span>
+                                <span class="badge border border-dark text-dark">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="https://uw-career-fairs.web.app/"><em>Click here to view project</em></a>
-              </div>
-          </div>
-        </div>
-
-        <!--Billboared-->
-         <div class="col-md-8 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Billboard</h2>
-                    <p class="dates"><em>Sep. 2022 – Sep. 2023</em></p>
-                    <p>I led a team of 5 students as a project manager and client side developer through a club called HCP. We created a personalized web trivia app that creates personalized trivia questions based off a player's spotify history. I helped delegate tasks on a weekly basis, and our team did weekly stand ups with team leads and presented our project at a final demo. </p>
-                   <h4>Tools:</h4>
-                    <ul>
-                        <li>Firebase</li>
-                        <li>OAuth 2.0</li>
-                        <li>Spotify API</li>
-                    </ul>
-                    <h4>Languages:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                <!--CSDE-->
+                <div class="align-self-center">
+                <div class="col-md-12 mt-4">
+                    <div class="card h-100 mb-4">
+                        <div class="card-body">
+                            <div class="col-sm">
+                                <div class="d-flex pb-3">
+                                    <div>
+                                        <img class="bg-gray-50 border border-gray-200 rounded-lg p-1" src="images/csde.png">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h3 class="card-title">Backend Engineer Intern</h3>
+                                        <p class="dates mb-0">Center for Studies in Demography and Ecology</p>
+                                        <p class="dates"><em>Jul. 2025 – Sep. 2025</em></p>
+                                    </div>
+                                </div>
+                                <p>At CSDE I worked as a backend engineer that was adding functionality to a web survey application that is part of an active research study. I worked on the backend by adding security and new endpoints.</p>
+                                <span class="badge border border-dark text-dark">PHP</span>
+                                <span class="badge border border-dark text-dark">JavaScript</span>
+                                <span class="badge border border-dark text-dark">HTML</span>
+                                <span class="badge border border-dark text-dark">CSS</span>
+                                <span class="badge border border-dark text-dark">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="https://github.com/hcp-uw/team-bill"><em>Click here to view project</em></a>
-              </div>
-          </div>
-        </div>
-
-        <!--Rareserved-->
-        <div class="col-md-8 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">RareSERVED Club Website</h2>
-                    <p class="dates"><em> Oct. 2023 – Jan. 2025</em></p>
-                    <p>I led a team of 5 students as a project manager and client side developer to create a website for an on campus club titled RareSERVED. I helped planned meetings and align expectations between the development team and the club leads that asked us to make the website. I helped deploy our website with vercel and connect our project to our Supabase project. I used typescript to create blog editing, saving and deleting logic. </p>
-                   <h4>Tools:</h4>
-                    <ul>
-                        <li>Vercel</li>
-                        <li>Supabase</li>
-                        <li>React</li>
-                    </ul>
-                    <h4>Languages:</h4>
-                    <ul>
-                        <li>Typescript</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
+            </div>    
+        </section>
+        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Projects-->
+            <div class="header p-5">
+                <h2>Projects</h2>
+            </div>
+            <div class="align-self-center">
+                <div class="row">
+                    <!--UW Career Fairs-->
+                    <div class="col-4 mt-4">
+                        <div class="card h-100 mb-4">
+                            <div class="card-body">
+                                <div class="col-sm p-3">
+                                    <div class="d-flex flex-column mb-3 mt-2">
+                                        <h3 class="card-title fs-4">UW Career Fairs</h2>
+                                        <img class="align-self-center" src="images/career-fair.png">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Designed, developed and deployed a website meant to manage career fairs, allowing companies and students to plan career fair visits and manage notes. </p>
+                                        <a href="https://uw-career-fairs.web.app/"><em>Click here to view project</em></a>
+                                    </div>
+                                    <span class="badge border border-dark text-dark">React</span>
+                                    <span class="badge border border-dark text-dark">JavaScript</span>
+                                    <span class="badge border border-dark text-dark">CSS</span>
+                                    <span class="badge border border-dark text-dark">Firebase</span>
+                                    <span class="badge border border-dark text-dark">NoSQL Database</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Billboard -->
+                    <div class="col-4 mt-4">
+                        <div class="card h-100 mb-4">
+                            <div class="card-body">
+                                <div class="col-sm p-3">
+                                    <div class="d-flex flex-column mb-3 mt-2">
+                                        <h3 class="card-title fs-4">Billboard</h2>
+                                        <img class="align-self-center" src="images/billboard-logo.png">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Designed, developed and deployed a website with a team of 5 other students that creates a personalized trivia experience using the player's Spotify listening history. </p>
+                                        <a href="https://github.com/hcp-uw/team-bill"><em>Click here to view project</em></a>
+                                    </div>
+                                    <span class="badge border border-dark text-dark">React</span>
+                                    <span class="badge border border-dark text-dark">JavaScript</span>
+                                    <span class="badge border border-dark text-dark">CSS</span>
+                                    <span class="badge border border-dark text-dark">Firebase</span>
+                                    <span class="badge border border-dark text-dark">NoSQL Database</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Parking Reservation System-->
+                    <div class="col-4 mt-4">
+                        <div class="card h-100 mb-4">
+                            <div class="card-body">
+                                <div class="col-sm p-3">
+                                    <div class="d-flex flex-column mb-3 mt-2">
+                                        <h3 class="card-title fs-4">Parking Reservation System</h2>
+                                        <img class="align-self-center" src="images/parking.png">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Designed and developed the backend of a website that is a mock up of a system that could manage parking reservations. </p>
+                                        <a href="https://github.com/KristenGus42/parking-API/tree/main"><em>Click here to view project</em></a>
+                                    </div>
+                                    <span class="badge border border-dark text-dark">JavaScript</span>
+                                    <span class="badge border border-dark text-dark">CSS</span>
+                                    <span class="badge border border-dark text-dark">HTML</span>
+                                    <span class="badge border border-dark text-dark">NodeJS</span>
+                                    <span class="badge border border-dark text-dark">SQLite</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="https://rareserved.vercel.app/"><em>Click here to view project</em></a>
-              </div>
-          </div>
-        </div>
-
-        <!--Parking Reservation Website-->
-        <div class="col-md-8 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Parking Reservation Website</h2>
-                    <p class="dates"><em>Nov. 2023 – Dec. 2023</em></p>
-                    <p>Worked on a team of two students as a backend developer. This website was a parking reservation system that allows different users to reserve parking spots. I designed, developed and documented an API that served information to our client side from our SQLite database. </p>
-                   <h4>Tools:</h4>
-                    <ul>
-                        <li>NodeJS</li>
-                        <li>SQLite</li>
-                    </ul>
-                    <h4>Languages:</h4>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-                <a href="https://github.com/KristenGus42/parking-API"><em>Click here to view project</em></a>
-              </div>
-          </div>
-        </div>
-        </div>
-        </div>
-    </section>
-
-    <section> <!--Skills-->
-        <h2>Skills</h2>
-        <div class="container">
-        <div class="row">
-        <!--Languages-->
-        <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Languages</h2>
-                    <ul>
-                        <li> Java (expert)</li>
-                        <li> JavaScript (expert) </li>
-                        <li> HTML (expert) </li>
-                        <li> CSS (expert) </li>
-                        <li> R (expert) </li>
-                        <li> SQL Lite (intermediate) </li>
-                        <li> Python (beginner) </li>
-                    </ul>
-                </div>
-              </div>
-          </div>
-        </div>
-
-        <!--Software-->
-         <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Software</h2>
-                    <ul>
-                        <li> Eclipse </li>
-                        <li> IntelliJ </li>
-                        <li> Visual Studio </li>
-                        <li> Firebase </li>
-                        <li> Unity </li>
-                        <li> RStudio </li>
-                        <li> MySQL </li>
-                        <li> MongoDB </li>
-                        <li> Azure </li>
-                    </ul>
+                <div class="row">
+                    <!--RareServed-->
+                    <div class="col-4 mt-4">
+                        <div class="card h-100 mb-4">
+                            <div class="card-body">
+                                <div class="col-sm p-3">
+                                    <div class="d-flex flex-column mb-3 mt-2">
+                                        <h3 class="card-title fs-4">Rareserved</h2>
+                                        <img class="align-self-center" src="images/rareserved-logo.png">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p>Created a web application for a school club that features a blog sharing feature and displays information about the club. </p>
+                                        <a href="https://rareserved.vercel.app/"><em>Click here to view project</em></a>
+                                    </div>
+                                    <span class="badge border border-dark text-dark">TypeScript</span>
+                                    <span class="badge border border-dark text-dark">React</span>
+                                    <span class="badge border border-dark text-dark">Vercel</span>
+                                    <span class="badge border border-dark text-dark">PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-        </div>
-
-        <!--Tools-->
-        <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Tools</h2>
-                       <ul>
-                            <li> Git (expert) </li>
-                            <li> Command Line (intermediate) </li>
-                            <li> Node (intermediate) </li>
-                        </ul>
+        </section>
+        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Education-->
+            <div class="header p-5">
+                <h2>Education</h2>
+            </div>
+            <div class="align-self-center">
+                <div class="col-md-12 mt-4">
+                    <div class="card h-100 mb-4">
+                        <div class="card-body">
+                            <div class="col-sm">
+                                <div class="d-flex pb-3">
+                                    <div>
+                                        <img src="images/uw-logo.png">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h3 class="card-title">Bachelor of Science, Informatics</h3>
+                                        <div>
+                                            <p class="dates mb-0 pb-0">University of Washington</p>
+                                            <p class="dates mb-0 pb-0"><em>GPA: 3.78 | 2022-2026 </em></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>I am an undergraduate student at the University of Washington with a focus in software development. </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    
-    <section> <!--Courses-->
-        <h2>Courses</h2>
-        <div class="container">
-        <div class="row">
-        <!--Programming-->
-        <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Programming</h2>
-                    <ul>
-                        <li> CSE 121, 122, 123: Intro to Programming I-III </li>
-                        <li> CSE 154: Web Programming </li>
-                        <li> INFO 340: Client Side Development </li>
-                        <li> CSE 374: Intermediate Programming Concepts and Tools (Low Level Programming)</li>
-                        <li> CSE 373: Data Structures and Algorithms </li>
-                        <li> CSE 417: Algorithms and Computational Complexity </li>
-                        <li> CSS 421 Introduction to Hardware and Operating Systems </li>
-                    </ul>
+        </section>
+        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Skills-->
+            <div class="header p-5">
+                <h2>Skills</h2>
+            </div>
+            <div class="align-self-center" id="skills">
+                <div class="p-3">
+                    <h5>Languages</h5>
+                    <span class="badge border border-dark text-dark">Java</span>
+                    <span class="badge border border-dark text-dark">JavaScript</span>
+                    <span class="badge border border-dark text-dark">HTML</span>
+                    <span class="badge border border-dark text-dark">CSS</span>
+                    <span class="badge border border-dark text-dark">Python</span>
+                    <span class="badge border border-dark text-dark">PHP</span>
+                    <span class="badge border border-dark text-dark">R</span>
+                    <span class="badge border border-dark text-dark">TypeScript</span>
+                    <span class="badge border border-dark text-dark">C</span>
+                    <span class="badge border border-dark text-dark">C++</span>
                 </div>
-              </div>
-          </div>
-        </div>
-
-        <!--Data Science-->
-        <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Data Science and Machine Learning</h2>
-                    <ul>
-                        <li> INFO 201: Introduction to Data Science </li>                        
-                        <li> INFO 370: Methods in Data Science </li>
-                        <li> INFO 371: Advanced Methods in Data Sceince </li>
-                        <li> INFO 376: Search and Reccomender Systems </li>
+                <div class="p-3">
+                    <h5>Tools</h5>
+                    <span class="badge border border-dark text-dark">React</span>
+                    <span class="badge border border-dark text-dark">Github</span>
+                    <span class="badge border border-dark text-dark">MySQL</span>
+                    <span class="badge border border-dark text-dark">MongoDB</span>
+                    <span class="badge border border-dark text-dark">NodeJS</span>
+                    <span class="badge border border-dark text-dark">Azure (Deployment and CosmosDB)</span>
                 </div>
-              </div>
-          </div>
-        </div>
-
-        <!--Math and Natural Sciences-->
-        <div class="col-md-6 col-xl-4 mt-4">
-          <div class="card h-100 mb-4">
-            <div class="card-body">
-                <div class="col-sm">
-                    <h3 class="card-title">Data Science and Machine Learning</h2>
-                    <ul>
-                        <li> STAT 311: Elements of Statistical Methods </li>
-                        <li> CALC 124, 125, 126: Calculus I-III </li>
-                        <li> PHYS 121: Mechanics </li>
-                        <li> STAT 221: Statistics for Social Sciences</li>
-                    </ul>
-              </div>
-          </div>
-        </div>
-        </div>
-        </div>
+            </div>
+        </section>
     </section>
-  </main>
-
-  <footer>
-
-  </footer>
 </body>
 </html>
+
+<!--Inspiration from: https://themewagon.com/themes/ryan/-->

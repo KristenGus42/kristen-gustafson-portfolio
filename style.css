@@ -1,72 +1,57 @@
 body {
-    background-color: #ECF8FD;
+    font-family: "Montserrat", sans-serif;
 }
 
-main {
-    margin: 4rem;
+.header {
+    min-width: 300px;
 }
 
-.bg-dark {
-    background-color: #272838;
+img {
+    max-width: 90px;
 }
-
-.navbar-brand {
-    color: #F2B418;
-}
-
 
 h3 {
-    font-size: 19px;
+    font-size: 20px;
 }
 
-h4 {
-    font-size: 15px;
-}
-
-section {
-    margin: 3rem;
-}
-
-h2 {
-    text-align: center;
-    padding-bottom: 0.2rem;
-}
-
-.dates {
-    font-size: 12px;
-    margin-bottom: 0.5rem;
+.card-body img {
+    min-width: 80%;
+    margin: auto;
+    border-radius: 25px; /* Applies a 25px radius to all four corners */
+    border: 2px solid gray; 
 }
 
 a {
     text-decoration: none;
-    color: #815355;
+    color: gray;
 }
 
-img {
-    max-height: 20rem;
-}
-
-.intro {
-    background-color: #afcbd6;
-    padding: 5rem;
-    border-radius: 30px;
-    border: 2px solid #272838;
-}
-
-.intro p {
-    margin: 1rem;
+#skills {
     font-size: 20px;
 }
 
-#first-section {
-    background-color: #afcbd6;
-    margin: 0%;
-    padding: 4rem;
-    min-width: 100%;
+#skills span {
+    margin: 0.5rem;
 }
 
-img { 
-    aspect-ratio: 1;
-    min-width: 100%;
-    height: auto;
+#intro .rounded-circle {
+    margin: auto;
+    min-width: 200px;
+}
+
+#intro {
+    margin: 5rem;
+}
+
+.icon {
+    width: 50px;
+}
+
+#intro .badge {
+    background-color: black;
+    padding: 15px;
+}
+
+h5 {
+    font-size: 20px;
 }

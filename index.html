@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Kristen Gustafson Portfolio</title>
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="/images/user-profile.png"> <!-- Icon created by: Md Tanvirul Haque - Flaticon-->
-
+    <meta charset="utf-8">
+    <title>Kristen Gustafson Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/user-profile.png"> <!-- Icon created by: Md Tanvirul Haque - Flaticon-->
+</head>
 <body>
-    <section id="intro" class="d-flex justify-content-center align-items-center"> <!--Intro + Header -->
-        <div class="text-center">
-            <img class="rounded-circle" src="images/kristen.jpg">
-            <h1>Kristen Gustafson</h1>
-            <h2>Software Engineer</h2>
-            <div> <!--Contact info-->
-                <a href="https://www.linkedin.com/in/kristen-gustafson-224071241/"><img class="icon m-3" src="images/linkedin.png"></a> <!--Icon created by:  riajulislam-->
-                <a href="https://github.com/KristenGus42"><img class="icon m-3" src="images/github.png"></a> <!--Icon created by: Dave Gandy -->
-                <a href="https://drive.google.com/file/d/1ugdZxzHIRh81969qJPweSi9LKAEGjhg8/view?usp=sharing" class="badge m-3">Resume</a>
+    <!-- Nav bar -->
+    <nav class="d-flex justify-content-center gap-4 p-3 sticky-top bg-white shadow-sm">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <!-- Intro section -->
+    <section id="intro" class="d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-row align-items-center gap-4">
+            <img id="self-pic" src="images/kristen.jpg">
+            <div>
+                <h1>Kristen Gustafson</h1>
+                <h2>Software Engineer</h2>
+                <div>
+                    <a href="https://www.linkedin.com/in/kristen-gustafson-224071241/"><img class="icon m-3" src="images/linkedin.png"></a>
+                    <a href="https://github.com/KristenGus42"><img class="icon m-3" src="images/github.png"></a>
+                    <a href="https://drive.google.com/file/d/1ugdZxzHIRh81969qJPweSi9LKAEGjhg8/view?usp=sharing" class="badge m-3">Resume</a>
+                </div>
             </div>
         </div>
     </section>
-    <section> <!--Info sections (about, experience, projects, education, skills)-->
-        <section class="d-flex flex-row p-2 m-4 col-10"> <!--About section-->
+
+    <!-- Info sections -->
+    <section>
+
+        <!-- About -->
+        <section id="about" class="d-flex flex-row p-2 mb-4 mt-1 ms-4 me-4 col-10">
             <div class="header p-5">
                 <h2>About</h2>
             </div>
             <div class="align-self-center">
-                <p>I am currently an undergraduate at the University of Washington studying Informatics with a focus in software development. I am passionate about software development and love expanding my skills through challenging projects, and collaborating with my peers to create impactful software. I have  experience with full stack development and am dedicated to writing clean, readable and maintainable code.</p>
+                <p>I am currently an undergraduate at the University of Washington studying Informatics with a focus in software development. I am passionate about software development and love expanding my skills through challenging projects, and collaborating with my peers to create impactful software. I have experience with full stack development and am dedicated to writing clean, readable and maintainable code.</p>
             </div>
         </section>
-        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Experience-->
+
+        <!-- Experience -->
+        <section id="experience" class="d-flex flex-row p-2 m-4 col-10">
             <div class="header p-5">
                 <h2>Experience</h2>
             </div>
-            <!--ExerciseRx-->
             <div class="align-self-center">
+
+                <!-- ExerciseRx -->
                 <div class="col-md-12 mt-4">
                     <div class="card h-100 mb-4">
                         <div class="card-body">
@@ -52,11 +71,21 @@
                                     </div>
                                     <div class="ms-3">
                                         <h3 class="card-title">Software Engineer Intern</h3>
-                                        <p class="dates mb-0">ExerciseRx </p>
+                                        <p class="dates mb-0">ExerciseRx</p>
                                         <p class="dates"><em>Jun. 2024 – Present</em></p>
                                     </div>
                                 </div>
                                 <p>At ExerciseRx I help develop and maintain a web application for a health app in active research titled ExerciseRX. I contribute to the full stack development of the web dashboard for health providers.</p>
+                                <div class="mt-2 mb-3">
+                                    <p class="mb-1">Contributions</p>
+                                    <ul class="mb-2" style="color: #555555; font-size: 0.9rem;">
+                                        <li>Development of ExerciseRx app website <a href="https://www.exerciserx.ai/"><em>(Click here to view)</em></a></li>
+                                        <li>Utilize Google's Fitbit API for data colleciton</li>
+                                        <li>Fully design, develop and test a note taking feature in order to reduce data gaps </li>
+                                        <li>Refactor server and client side code to accomodate growing user base and new clinics</li>
+                                        <li>Make accessibilty related updates to the organization's website for ADA compliance</li>
+                                    </ul>
+                                </div>
                                 <span class="badge border border-dark text-dark">PHP</span>
                                 <span class="badge border border-dark text-dark">JavaScript</span>
                                 <span class="badge border border-dark text-dark">HTML</span>
@@ -66,8 +95,40 @@
                         </div>
                     </div>
                 </div>
-                <!--CSDE-->
-                <div class="align-self-center">
+
+                <!-- Capstone -->
+                <div class="col-md-12 mt-4">
+                    <div class="card h-100 mb-4">
+                        <div class="card-body">
+                            <div class="col-sm">
+                                <div class="d-flex pb-3">
+                                    <div>
+                                        <img class="bg-gray-50 border border-gray-200 rounded-lg p-1" src="images/cisc-logo.jpg">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h3 class="card-title">Full Stack Software Engineer</h3>
+                                        <p class="dates mb-0">Chinese Information and Service Center (CISC)</p>
+                                        <p class="dates"><em>Jan. 2026 – Present</em></p>
+                                    </div>
+                                </div>
+                                <p>For my capstone project I worked within a team of 5 students building a web portal for CISC, a non-profit legal clinic. The portal is used to schedule pro bono legal appointments and organize related information. I work closely with our UI/UX designer using React, JavaScript, and Firebase to develop and iterate on our solution.</p>
+                                <div class="mt-2 mb-3">
+                                    <p class="mb-1">Contributions</p>
+                                    <ul class="mb-2" style="color: #555555; font-size: 0.9rem;">
+                                        <li>Developed the frontend of primary features including scheduling, case and attorney import functionality and authentication</li>
+                                        <li>Configured Firebase for deployment and utilziation of Realtime database </li>
+                                    </ul>
+                                </div>
+                                <span class="badge border border-dark text-dark">React</span>
+                                <span class="badge border border-dark text-dark">JavaScript</span>
+                                <span class="badge border border-dark text-dark">NoSQL Database</span>
+                                <span class="badge border border-dark text-dark">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSDE -->
                 <div class="col-md-12 mt-4">
                     <div class="card h-100 mb-4">
                         <div class="card-body">
@@ -83,6 +144,14 @@
                                     </div>
                                 </div>
                                 <p>At CSDE I worked as a backend engineer that was adding functionality to a web survey application that is part of an active research study. I worked on the backend by adding security and new endpoints.</p>
+                                 <div class="mt-2 mb-3">
+                                    <p class="mb-1">Contributions</p>
+                                    <ul class="mb-2" style="color: #555555; font-size: 0.9rem;">
+                                        <li>Refactored API endpoints to reduce redudancy</li>
+                                        <li>Implemented JSON web tokens within pre-existing authentication flow to improve security </li>
+                                        <li>Implemented new API endpoints to accomodate an autosave feature for surveys </li>
+                                    </ul>
+                                </div>
                                 <span class="badge border border-dark text-dark">NodeJS</span>
                                 <span class="badge border border-dark text-dark">JavaScript</span>
                                 <span class="badge border border-dark text-dark">TypeScript</span>
@@ -93,53 +162,29 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-            <!--Capstone-->
-            <div class="align-self-center">
-                <div class="col-md-12 mt-4">
-                    <div class="card h-100 mb-4">
-                        <div class="card-body">
-                            <div class="col-sm">
-                                <div class="d-flex pb-3">
-                                    <div>
-                                        <img class="bg-gray-50 border border-gray-200 rounded-lg p-1" src="images/cisc-logo.jpg">
-                                    </div>
-                                    <div class="ms-3">
-                                        <h3 class="card-title">Full Stack Software Engineer</h3>
-                                        <p class="dates mb-0">Chinese Information and Service Center (CISC) </p>
-                                        <p class="dates"><em>Jan. 2025 – Present</em></p>
-                                    </div>
-                                </div>
-                                <p>For my capstone project I worked within a development team of 5 students creating a web portal for a non‑profit organization called CISC. We are creating a portal for CISC's legal clinic, which will be used to schedule pro bono legal consulting appointments and organize information associated with these appointments.
-                                    <br><br>Within our team we have designers, engineers and data scientists. As a software engineer I work closely with our UI/UX designer to develop our web solution. We have an iterative design and development process rooted in testing and user feedback. I use React and JavaScript for client‑side programming and am using Firebase for our database and cloud hosting solution. This experience has taught me how to work closely with all parts of an engineering team and iteratively develop over a long period of time. </p>
-                                <span class="badge border border-dark text-dark">React</span>
-                                <span class="badge border border-dark text-dark">JavaScript</span>
-                                <span class="badge border border-dark text-dark">NoSQL Database</span>
-                                <span class="badge border border-dark text-dark">Firebase</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
+
+            </div>
         </section>
-        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Projects-->
+
+        <!-- Projects -->
+        <section id="projects" class="d-flex flex-row p-2 m-4 col-10">
             <div class="header p-5">
                 <h2>Projects</h2>
             </div>
-            
             <div class="align-self-center">
-                <!--<div class="row">-->
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-                    <!--UW Career Fairs-->
+
+                    <!-- UW Career Fairs -->
                     <div class="col-4 mt-4">
                         <div class="card h-100 mb-4">
                             <div class="card-body">
                                 <div class="col-sm p-3">
                                     <div class="d-flex flex-column mb-3 mt-2">
-                                        <h3 class="card-title fs-4">UW Career Fairs</h2>
+                                        <h3 class="card-title fs-4">UW Career Fairs</h3>
                                         <img class="align-self-center" src="images/career-fair.png">
                                     </div>
                                     <div class="mb-3">
-                                        <p>Designed, developed and deployed a website meant to manage career fairs, allowing companies and students to plan career fair visits and manage notes. </p>
+                                        <p>Designed, developed and deployed a website meant to manage career fairs, allowing companies and students to plan career fair visits and manage notes.</p>
                                         <a href="https://uw-career-fairs.web.app/"><em>Click here to view project</em></a>
                                     </div>
                                     <span class="badge border border-dark text-dark">React</span>
@@ -151,17 +196,18 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Billboard -->
                     <div class="col-4 mt-4">
                         <div class="card h-100 mb-4">
                             <div class="card-body">
                                 <div class="col-sm p-3">
                                     <div class="d-flex flex-column mb-3 mt-2">
-                                        <h3 class="card-title fs-4">Billboard</h2>
+                                        <h3 class="card-title fs-4">Billboard</h3>
                                         <img class="align-self-center" src="images/billboard-logo.png">
                                     </div>
                                     <div class="mb-3">
-                                        <p>Designed, developed and deployed a website with a team of 5 other students that creates a personalized trivia experience using the player's Spotify listening history. </p>
+                                        <p>Designed, developed and deployed a website with a team of 5 other students that creates a personalized trivia experience using the player's Spotify listening history.</p>
                                         <a href="https://github.com/hcp-uw/team-bill"><em>Click here to view project</em></a>
                                     </div>
                                     <span class="badge border border-dark text-dark">JavaScript</span>
@@ -172,17 +218,18 @@
                             </div>
                         </div>
                     </div>
-                    <!--Parking Reservation System-->
+
+                    <!-- Parking Reservation System -->
                     <div class="col-4 mt-4">
                         <div class="card h-100 mb-4">
                             <div class="card-body">
                                 <div class="col-sm p-3">
                                     <div class="d-flex flex-column mb-3 mt-2">
-                                        <h3 class="card-title fs-4">Parking Reservation System</h2>
+                                        <h3 class="card-title fs-4">Parking Reservation System</h3>
                                         <img class="align-self-center" src="images/parking.png">
                                     </div>
                                     <div class="mb-3">
-                                        <p>Designed and developed the backend of a website that is a mock up of a system that could manage parking reservations. </p>
+                                        <p>Designed and developed the backend of a website that is a mock up of a system that could manage parking reservations.</p>
                                         <a href="https://github.com/KristenGus42/parking-API/tree/main"><em>Click here to view project</em></a>
                                     </div>
                                     <span class="badge border border-dark text-dark">JavaScript</span>
@@ -194,19 +241,18 @@
                             </div>
                         </div>
                     </div>
-                <!--</div>-->
-                <!--<div class="row">-->
-                    <!--RareServed-->
+
+                    <!-- Rareserved -->
                     <div class="col-4 mt-4">
                         <div class="card h-100 mb-4">
                             <div class="card-body">
                                 <div class="col-sm p-3">
                                     <div class="d-flex flex-column mb-3 mt-2">
-                                        <h3 class="card-title fs-4">Rareserved</h2>
+                                        <h3 class="card-title fs-4">Rareserved</h3>
                                         <img class="align-self-center" src="images/rareserved-logo.png">
                                     </div>
                                     <div class="mb-3">
-                                        <p>Created a web application for a school club that features a blog sharing feature and displays information about the club. </p>
+                                        <p>Created a web application for a school club that features a blog sharing feature and displays information about the club.</p>
                                         <a href="https://rareserved.vercel.app/"><em>Click here to view project</em></a>
                                     </div>
                                     <span class="badge border border-dark text-dark">TypeScript</span>
@@ -217,11 +263,13 @@
                             </div>
                         </div>
                     </div>
-                <!--</div>-->
+
                 </div>
             </div>
         </section>
-        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Education-->
+
+        <!-- Education -->
+        <section id="education" class="d-flex flex-row p-2 m-4 col-10">
             <div class="header p-5">
                 <h2>Education</h2>
             </div>
@@ -238,22 +286,24 @@
                                         <h3 class="card-title">Bachelor of Science, Informatics</h3>
                                         <div>
                                             <p class="dates mb-0 pb-0">University of Washington</p>
-                                            <p class="dates mb-0 pb-0"><em>GPA: 3.78 | 2022-2026 </em></p>
+                                            <p class="dates mb-0 pb-0"><em>GPA: 3.78 | 2022-2026</em></p>
                                         </div>
                                     </div>
                                 </div>
-                                <p>I am an undergraduate student at the University of Washington with a focus in software development. </p>
+                                <p>I am an undergraduate student at the University of Washington with a focus in software development.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="d-flex flex-row p-2 m-4 col-10"> <!--Skills-->
+
+        <!-- Skills -->
+        <section id="skills" class="d-flex flex-row p-2 m-4 col-10">
             <div class="header p-5">
                 <h2>Skills</h2>
             </div>
-            <div class="align-self-center" id="skills">
+            <div class="align-self-center">
                 <div class="p-3">
                     <h5>Languages</h5>
                     <span class="badge border border-dark text-dark">Java</span>
@@ -278,8 +328,8 @@
                 </div>
             </div>
         </section>
+
     </section>
 </body>
 </html>
-
-<!--Inspiration from: https://themewagon.com/themes/ryan/-->
+<!-- Inspiration from: https://themewagon.com/themes/ryan/ -->

@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: #f5f5f0;
 }
 
 .header {
@@ -59,3 +60,26 @@ a {
 h5 {
     font-size: 20px;
 }
+
+#self-pic {
+    width: 200px;
+    max-width: 400px !important;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    margin-right: 4rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    transition: box-shadow 0.2s ease;
+}
+
+nav a          { color: #333232; }
+nav a:visited  { color: #888888; }
+nav a:hover    { color: #111111; }
+nav a:active   { color: #000000; }
+nav a:focus    { color: #111111; }
+
+#intro a:hover   { color: #888888; }
+#intro a:visited { color: white; }
